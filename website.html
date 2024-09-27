@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Press Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- First screen with the "Press here" button -->
+    <div id="screen1" class="screen">
+        <button class="btn" onclick="showSecondScreen()">Press here</button>
+    </div>
+
+    <!-- Second screen with the "Tap here too!" button -->
+    <div id="screen2" class="screen" style="display: none;">
+        <button class="btn" onclick="showFinalScreen()">Tap here too!</button>
+    </div>
+
+    <!-- Final screen with the thank you message -->
+    <div id="finalScreen" class="screen" style="display: none;">
+        <h1>Thanks for being my <span class="highlight">#1 friend</span>!</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Reset basic styles */
+body, h1, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Full height and centered layout */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f0e68c, #ffa07a); /* Soft gradient for the initial screens */
+}
+
+/* Styling for the screens */
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Styling the buttons */
+.btn {
+    font-size: 2em;
+    padding: 15px 30px;
+    background-color: #ff69b4; /* Bright pink button */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Final screen styles */
+#finalScreen {
+    background: linear-gradient(135deg, #ffb6c1, #ffff99, #87ceeb); /* Bright and fun gradient */
+    text-align: center;
+}
+
+/* Styling the thank you message */
+h1 {
+    font-size: 4em;
+    color: #ff69b4;
+    text-shadow: 3px 3px 5px #ffffff, 2px 2px 4px #ff1493;
+    margin: 0;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #ffd700;
+    font-style: italic;
+}
